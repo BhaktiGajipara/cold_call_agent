@@ -18,17 +18,21 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
 
 3. **Install Dependencies:**:
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 4. **Set Environment Variables:**:
  Create a .env file in the root directory and add the variables copy from .env.local
 
 5. **Running the Application**:
 FastAPI backend:
-python call.py
+    ```bash
+    python call.py
 
 Streamlit frontend:
-streamlit run main.py 
+    ```bash
+    streamlit run main.py 
 
 Start the Agent Worker:
-python outbound_call_agent.py dev
+    ```bash
+    python outbound_call_agent.py dev
